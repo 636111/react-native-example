@@ -1,11 +1,11 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import FlexDirectionBasics from './components/FlexDirectionBasics';
+import JustifyContentBasics from './components/JustifyContentBasics';
 
 export default class App extends React.Component {
   render() {
     return (
-      <FlexDirectionBasics />
+      <JustifyContentBasics />
     );
   }
 }
