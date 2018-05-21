@@ -1,11 +1,11 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import JustifyContentBasics from './components/JustifyContentBasics';
+import AlignItemsBasics from './components/AlignItemsBasics';
 
 export default class App extends React.Component {
   render() {
     return (
-      <JustifyContentBasics />
+      <AlignItemsBasics />
     );
   }
 }
