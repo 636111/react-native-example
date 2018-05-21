@@ -1,13 +1,11 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import FixedDimensionsBasics from './components/FixedDimensionsBasics';
+import FlexDimensionsBasics from './components/FlexDimensionsBasics';
 
 export default class App extends React.Component {
   render() {
     return (
-      <View style={styles.container}>
-        <FixedDimensionsBasics />
-      </View>
+      <FlexDimensionsBasics />
     );
   }
 }
