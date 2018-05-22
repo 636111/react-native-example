@@ -1,11 +1,11 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import PizzaTranslator from './components/PizzaTranslator';
+import ButtonBasics from './components/ButtonBasics';
 
 export default class App extends React.Component {
   render() {
     return (
-      <PizzaTranslator />
+      <ButtonBasics />
     );
   }
 }
