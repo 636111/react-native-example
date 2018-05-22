@@ -1,11 +1,11 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import Touchables from './components/Touchables';
+import IScrolledDownAndWhatHappenedNextShockedMe from './components/IScrolledDownAndWhatHappenedNextShockedMe';
 
 export default class App extends React.Component {
   render() {
     return (
-      <Touchables />
+      <IScrolledDownAndWhatHappenedNextShockedMe />
     );
   }
 }
